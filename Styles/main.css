@@ -1,0 +1,31 @@
+@font-face{
+    font-family: SSbold;
+    src: url("../Fonts/SourceSansPro-Bold.ttf");
+}
+@font-face{
+    font-family: SS;
+    src: url("../Fonts/SourceSansPro-Regular.ttf");
+}
+main h2{
+    width: 400px;
+    margin: 50px auto;
+}
+#text-title{
+    text-align: center;
+    font: 42px SSbold,'sans-serif';
+}
+main p{
+    width: 716px;
+    margin: 50px auto;
+}
+#text-content{
+    text-align: center;
+    font: 18px SS,'sans-serif';
+}
+main button{
+    width: 415px;
+    height: 60px;
+    background-color: var(--header-color);
+    border: none;
+    border-radius: 5px;
+}

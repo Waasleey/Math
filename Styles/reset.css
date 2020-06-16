@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 :root{ /*Variaveis, apenas cores*/
-
+    --header-color: #0096c7;
 }
 body{
     background-color: #f0f0f5;

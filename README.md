@@ -12,7 +12,7 @@ Será desenvolvido uma plataforma onde será possível realizar operações bás
 - Ter no mínimo suporte para 3 idiomas
 - Ser Responsivo para telas mobile
 
-## [Link dos Protótipos de Tela](https://www.figma.com/file/BaTqXb1scEN9yNeQABhdlR/Math)
+## [Link dos Protótipos de Tela](https://www.figma.com/file/BaTqXb1scEN9yNeQABhdlR/Math?node-id=0%3A1)
 
 As telas foram desenvolvidas para ser acessível para os usuários, envolvendo estudos de UX.
 

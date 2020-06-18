@@ -1,31 +1,59 @@
 @font-face{
-    font-family: SSbold;
-    src: url("../Fonts/SourceSansPro-Bold.ttf");
+    font-family: MarkB;
+    src: url("../Fonts/Mark-Bold.ttf");
 }
 @font-face{
-    font-family: SS;
-    src: url("../Fonts/SourceSansPro-Regular.ttf");
+    font-family: Mark;
+    src: url("../Fonts/Mark-Heavy.ttf");
 }
 main h2{
-    width: 400px;
+    width: 100%;
+    max-width: 450px;
     margin: 50px auto;
 }
 #text-title{
     text-align: center;
-    font: 42px SSbold,'sans-serif';
+    font: 42px Mark,'sans-serif';
 }
 main p{
-    width: 716px;
+    width: 100%;
+    max-width: 716px;
     margin: 50px auto;
 }
 #text-content{
     text-align: center;
-    font: 18px SS,'sans-serif';
+    font: 18px Mark,'sans-serif';
 }
-main button{
+#button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#button button{
     width: 415px;
-    height: 60px;
-    background-color: var(--header-color);
+    height: 65px;
     border: none;
     border-radius: 5px;
+    background-color: var(--header-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 400ms;
+    cursor: pointer;
+}
+#button p{
+    font: 18px MarkB,'sans-serif';
+    color: white;
+}
+#button a{
+    width: 70px;
+    height: 65px;
+    background-color: #007FA9; /*Azul mais escuro*/
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }

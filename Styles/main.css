@@ -1,11 +1,3 @@
-@font-face{
-    font-family: MarkB;
-    src: url("../Fonts/Mark-Bold.ttf");
-}
-@font-face{
-    font-family: Mark;
-    src: url("../Fonts/Mark-Heavy.ttf");
-}
 main h2{
     width: 100%;
     max-width: 450px;

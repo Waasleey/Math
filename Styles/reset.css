@@ -1,4 +1,16 @@
-/*Resetando padrões do CSS*/
+/*Resetando padrões do CSS, inserindo váriaveis, e incluindos fontes*/
+@font-face{
+    font-family: MarkB;
+    src: url("../Fonts/Mark-Bold.ttf");
+}
+@font-face{
+    font-family: Mark;
+    src: url("../Fonts/Mark-Heavy.ttf");
+}
+@font-face{
+    font-family: P22;
+    src: url("../Fonts/P22\ FLLW\ Exhibition\ Regular.ttf");
+}
 *{ 
     margin: 0;
     padding: 0;

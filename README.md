@@ -10,7 +10,15 @@ Será desenvolvido uma plataforma onde será possível realizar operações bás
 - Prototipar as telas
 - Formulário de Cadastro e Login
 - Ter no mínimo suporte para 3 idiomas
+- Ser Acessível para usuários com necessidades especiais
+- Ter boas práticas de SEO
 - Ser Responsivo para telas mobile
+
+## Requisitos Posteriores
+
+Estes requisitos tem como intuito serem realizados após a conclusão dos Requisitos Iniciais
+
+- Uma integração com um banco de dados
 
 ## [Link dos Protótipos de Tela](https://www.figma.com/file/BaTqXb1scEN9yNeQABhdlR/Math?node-id=0%3A1)
 

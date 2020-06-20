@@ -14,7 +14,7 @@
     text-align: center;
 }
 #footer address figure{
-    padding: 24px 0;
+    padding: 18px 0;
     display: flex;
     justify-content: center;
 }
@@ -29,6 +29,11 @@
 #footer address figure a img:hover{
     width: 60px;
     height: 60px;
+}
+figcaption{
+    text-align: center;
+    font: 16px Mark,'sans-serif';
+    margin-top: 12px;
 }
 @media (max-width: 768px){
     #footer{

@@ -51,17 +51,17 @@ button:hover{
 }
 #text-button{
     font: 20px Mark,'sans-serif';
-    color: #ffffff;
+    color: #000000;
     transition: 200ms;
 }
 .text-more{
-    opacity: 50%;
+    opacity: 100%;
     font: 16px Mark,'sans-serif';
     margin-top: 30px;
+    transition: 400ms;
 }
 .text-more:hover{
-    opacity: 100%;
-    cursor: pointer;
+    font-size: 18px;
 }
 @media (max-width: 545px){
     #form{

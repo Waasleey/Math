@@ -37,7 +37,7 @@ main p{
 }
 #button p{
     font: 18px MarkB,'sans-serif';
-    color: white;
+    color: #000000;
     transition: 400ms;
 }
 #button a{

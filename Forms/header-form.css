@@ -23,7 +23,7 @@ li{
 } 
 #logo a{
     font: 58px P22,'sans-serif';
-    color: #ffffff;
+    color: #000000;
     transition: 400ms;
 }
 #logo a:hover{

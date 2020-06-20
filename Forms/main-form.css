@@ -13,6 +13,18 @@ body{
     flex-direction: column;
     transition: 400ms;
 }
+#form-login{
+    width: 550px;
+    height: 500px;
+    background-color: #ffffff;
+    margin: 60px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    transition: 400ms;
+}
 #title-form{
     font: 24px Mark,'sans-serif';
     margin-top: 40px;

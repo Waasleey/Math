@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-A ideia deste projeto é se aprofundar nas 3 principais tecnologias de front-end, respectivamente são: HTML, CSS e JavaScript.
+A ideia deste projeto é se aprofundar nas 3 principais tecnologias de front-end, respectivamente são: HTML, CSS, JavaScript, PHP entre outros.
 Será desenvolvido uma plataforma onde será possível realizar operações básicas de matemáticas.
 
 ## Requisitos Iniciais
@@ -18,7 +18,9 @@ Será desenvolvido uma plataforma onde será possível realizar operações bás
 
 Estes requisitos tem como intuito serem realizados após a conclusão dos Requisitos Iniciais
 
-- Uma integração com um banco de dados
+- Uma integração com um banco de dados (não definido qual SGBD irá ser utilizado)
+- Adicionar novas operações matemáticas
+- Aprendizado sobre tecnologias de Back-end
 
 ## [Link dos Protótipos de Tela](https://www.figma.com/file/BaTqXb1scEN9yNeQABhdlR/Math?node-id=0%3A1)
 

@@ -79,6 +79,10 @@ button:hover{
     #form{
         width: 300px;
     }
+    #form-login{
+        width: 300px;
+    }
+    
     .label-title{
         position: relative;
         right: 41%;
@@ -88,6 +92,9 @@ button:hover{
         width: 250px;
     }
     button{
+        width: 250px;
+    }
+    button:hover{
         width: 250px;
     }
 }

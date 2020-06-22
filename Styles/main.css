@@ -51,7 +51,7 @@ main p{
     font-size: 26px;
 }
 @media (max-width: 768px){
-    #button button{
-        width: 315px;
+    #container-button a button{
+        width: 300px;
     }
 }

@@ -1,0 +1,7 @@
+@media (max-height: 630px){
+    #footer{
+        position: absolute;
+        bottom: 0;
+        transform: translateY(350%);
+    }
+}

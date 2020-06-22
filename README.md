@@ -1,9 +1,13 @@
-# Math
+<h1 align="center">
+    Math
+</h1>
 
 ## Descrição do Projeto
 
-A ideia deste projeto é se aprofundar nas 3 principais tecnologias de front-end, respectivamente são: HTML, CSS, JavaScript, PHP entre outros.
-Será desenvolvido uma plataforma onde será possível realizar operações básicas de matemáticas.
+A ideia deste projeto é se aprofundar nas principais tecnologias de front-end, back-end, e banco de dados.
+Onde será desenvolvido uma plataforma para que seja possível realizar operações básicas de matemáticas.
+
+Este projeto, tem como principal intuito fixar conhecimento adquiridos ao longo dos meus estudos, por isso a que ideia deste projeto ser bastante simples.
 
 ## Requisitos Iniciais
 

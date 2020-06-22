@@ -34,10 +34,21 @@ main p{
     align-items: center;
     cursor: pointer;
     padding: 20px;
+    transition: 400ms;
 }
 #container-button a button span{
     font: 24px MarkB,'sans-serif';
     text-align: center;
+    transition: 400ms;
+    height: 100%;
+    width: 100%;
+}
+#container-button a button:hover{
+    width: 410px;
+    height: 70px;
+}
+#container-button a button span:hover{
+    font-size: 26px;
 }
 @media (max-width: 768px){
     #button button{

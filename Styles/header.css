@@ -22,20 +22,20 @@ li{
     cursor: pointer;
 } 
 #logo a{
-    font: 58px P22,'sans-serif';
+    font: 2.5em P22,'sans-serif';
     color: #000000;
     transition: 400ms;
 }
 #logo a:hover{
-    font-size: 72px;
+    font-size: 3.0em;
 }
 #login a{
-    font: 400 18px MarkB,'sans-serif';
+    font: 400 1.2em MarkB,'sans-serif';
     color: #000000;
     transition: 400ms;
 }
 #login a:hover{
-    font-size: 24px;
+    font-size: 1.7em;
 }
 @media (max-width: 768px){
     

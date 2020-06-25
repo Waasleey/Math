@@ -28,11 +28,11 @@ body{
     box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.25);
 }
 #title-form{
-    font: 24px Mark,'sans-serif';
+    font: 1.8em Mark,'sans-serif';
     margin-top: 40px;
 }
 .label-title{
-    font: 14px Mark,'sans-serif';
+    font: 1em Mark,'sans-serif';
     margin-top: 32px;
     position: relative;
     right: 36%;
@@ -49,6 +49,9 @@ body{
     font: 16px Mark,'sans-serif';
     transition: 400ms;
 }
+.box-form:focus{
+    background-color: rgba( 0,0, 0, 0.35);
+}
 button{
     width: 400px;
     height: 60px;
@@ -58,25 +61,25 @@ button{
     border: none;
     cursor: pointer;
     transition: 400ms;
-    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 4px rgba(250, 173, 173, 0.15);
 }
 button:hover{
     width: 410px;
     height: 70px;
 }
 #text-button{
-    font: 20px Mark,'sans-serif';
+    font: 1.4em Mark,'sans-serif';
     color: #000000;
     transition: 200ms;
 }
 .text-more{
     opacity: 100%;
-    font: 16px Mark,'sans-serif';
+    font: 1em Mark,'sans-serif';
     margin-top: 30px;
     transition: 400ms;
 }
 .text-more:hover{
-    font-size: 18px;
+    font-size: 1.1em;
 }
 @media (max-width: 545px){
     #form{

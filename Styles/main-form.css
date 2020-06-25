@@ -12,6 +12,7 @@ body{
     align-items: center;
     flex-direction: column;
     transition: 400ms;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.15);
 }
 #form-login{
     width: 550px;
@@ -24,6 +25,7 @@ body{
     align-items: center;
     flex-direction: column;
     transition: 400ms;
+    box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.25);
 }
 #title-form{
     font: 24px Mark,'sans-serif';
@@ -56,6 +58,7 @@ button{
     border: none;
     cursor: pointer;
     transition: 400ms;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.15);
 }
 button:hover{
     width: 410px;

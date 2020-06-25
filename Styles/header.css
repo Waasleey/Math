@@ -38,10 +38,5 @@ li{
     font-size: 24px;
 }
 @media (max-width: 768px){
-    #word{
-        display: none; /*Vou revisar*/
-    }
-    #login{
-        display: none; /*Vou revisar*/
-    }
+    
 }

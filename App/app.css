@@ -26,8 +26,9 @@
     font: 16px Mark,'sans-serif';
 }
 .container-card form input{
+    margin-top: 5px;
     width: 80%;
-    height: 30px;
+    height: 40px;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -44,5 +45,8 @@
     cursor: pointer;
 }
 section img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 32px;
 }

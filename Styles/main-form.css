@@ -47,10 +47,13 @@ body{
     cursor: text;
     padding: 20px;
     font: 16px Mark,'sans-serif';
-    transition: 400ms;
+    outline: none;
+    transition: 200ms;
+    
 }
 .box-form:focus{
     background-color: rgba( 0,0, 0, 0.35);
+    border: 2px solid var(--header-color);
 }
 button{
     width: 400px;
@@ -62,6 +65,7 @@ button{
     cursor: pointer;
     transition: 400ms;
     box-shadow: 0 5px 4px rgba(250, 173, 173, 0.15);
+    outline: none;
 }
 button:hover{
     width: 410px;

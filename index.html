@@ -20,23 +20,15 @@
                 <li id="word">
                     <img src="./Images/world.svg" alt="Escolha seu idioma" width="25" height="25">
                 </li>
-                <h2 id="logo">
+                <li id="logo">
                     <a href="./index.html">M4TH</a>
-                </h2>
-                <li id="login">
+                </li>
+                <li class="login">
                     <a href="./login.html">Login</a>
                 </li>
-                <!--Código para revisão-->
-                <aside class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn">
-                        Por favor abri ;-;
-                    </button>
-                    
-                    <div id="myDropdown" class="dropdown-content">
-                        <a href="#">Iniciar Sessão</a>
-                    </div>
-                </aside>
-                <!--Fim-->
+                <li class="login">
+                    <img src="./Images/user.svg" width="25" height="25" alt="">
+                </li>
             </ul>
         </nav>
     </header>
@@ -81,29 +73,6 @@
             </figure>
         </address>
     </footer>
-    <script>
-
-        // Código Js do W3Cscholl
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
-        function myFunction() {
-          document.getElementById("myDropdown").classList.toggle("show");
-        }
-        
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function(event) {
-          if (!event.target.matches('.dropbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-              var openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-              }
-            }
-          }
-        }
-        </script>
 </body>
 
 </html>

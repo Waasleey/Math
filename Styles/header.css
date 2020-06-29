@@ -8,8 +8,11 @@ header nav ul{
     height: 90px;
     background-color: var(--header-color);
 }
-li{
-    margin: 0 25%;
+li:nth-child(1){
+    flex-grow: 0.2;
+}
+li:nth-child(2){
+    flex-grow: 0.2;
 }
 #word img{
     width: 25px;
@@ -22,58 +25,29 @@ li{
     cursor: pointer;
 } 
 #logo a{
-    font: 2.5em P22,'sans-serif';
+    font: 4em P22,'sans-serif';
     color: #000000;
     transition: 400ms;
 }
 #logo a:hover{
-    font-size: 3.0em;
+    font-size: 4.5em;
 }
-#login a{
+.login a{
     font: 400 1.2em MarkB,'sans-serif';
     color: #000000;
     transition: 400ms;
 }
-#login a:hover{
+.login a:hover{
     font-size: 1.7em;
 }
-
-/*Menu dropdown*/
-
-aside{
+li:nth-child(4){
     display: none;
 }
-
 @media (max-width: 768px){
-    li{
+    li:nth-child(3){
         display: none;
     }
-    aside{
+    li:nth-child(4){
         display: flex;
-    }
-    .dropbtn{
-        background: none;
-        border: none;
-        cursor: pointer;
-    }
-    .dropdown{
-        position: relative;
-        display: inline-block;
-    }
-    .dropdown-content{
-        display: none;
-        position: absolute;
-        min-height: 160px;
-        overflow: auto;
-        z-index: 1;
-    }
-    .dropdown-content a{
-        display: block;
-    }
-    .dropdown a:hover{
-        background-color: aqua;
-    }
-    .show{
-        display: block;
     }
 }

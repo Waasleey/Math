@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../Styles/header.css">
     <link rel="stylesheet" href="../App/app.css">
     <link rel="stylesheet" href="../Styles/footer.css">
-    <script src="../Js/form.js" defer></script>
+    <script src="../Js/App.js" defer></script>
     <title>Math - Matemática básica</title>
 </head>
 
@@ -39,65 +39,73 @@
                 <h2>Adição</h2>
 
                 <label for="valor-a">Valor A</label>
-                <input type="text" id="valor-a" name="valor-a" required placeholder="Digite um valor">
+                <input type="text" id="soma-a" name="soma" class="soma" required autocomplete="off" placeholder="Digite um valor">
 
                 <section>
                     <img src="../Images/mais.svg" width="25" height="25" alt="Operador de adição">
                 </section>
 
                 <label for="valor-b">Valor B</label>
-                <input type="text" id="valor-b" name="valor-b" required placeholder="Digite um valor">
+                <input type="text" id="soma-b" name="soma" class="soma" required autocomplete='off' placeholder="Digite um valor">
 
-                <button type="submit">Resultado</button>
+                <button onclick="adicao()" id="soma" type="button">Resultado</button>
+
+                <span class="span" id="soma"></span>
             </form>
             <form action="">
                 <h2>Subtração</h2>
 
                 <label for="valor-a">Valor A</label>
-                <input type="text" id="valor-a" name="valor-a" required placeholder="Digite um valor">
+                <input type="text" id="sub-a" name="valor-a" required autocomplete="off" placeholder="Digite um valor">
 
                 <section>
                     <img src="../Images/sub.svg" width="25" height="25" alt="Operador de Subtração">
                 </section>
 
                 <label for="valor-b">Valor B</label>
-                <input type="text" id="valor-b" name="valor-b" required placeholder="Digite um valor">
+                <input type="text" id="sub-b" name="valor-b" required autocomplete="off" placeholder="Digite um valor">
 
-                <button type="submit">Resultado</button>
+                <button onclick="sub()" type="button">Resultado</button>
+
+                <span class="span" id="sub"></span>
             </form>
             <form action="">
                 <h2>Multiplicação</h2>
 
                 <label for="valor-a">Valor A</label>
-                <input type="text" id="valor-a" name="valor-a" required placeholder="Digite um valor">
+                <input type="text" id="multi-a" name="valor-a" required autocomplete="off" placeholder="Digite um valor">
 
                 <section>
                     <img src="../Images/multi.svg" width="25" height="25" alt="Operador de Multiplicação">
                 </section>
 
                 <label for="valor-b">Valor B</label>
-                <input type="text" id="valor-b" name="valor-b" required placeholder="Digite um valor">
+                <input type="text" id="multi-b" name="valor-b" required autocomplete="off" placeholder="Digite um valor">
 
-                <button type="submit">Resultado</button>
+                <button onclick="multi()" type="button">Resultado</button>
+
+                <span class="span" id="multi"></span>
             </form>
             <form action="">
                 <h2>Divisão</h2>
 
                 <label for="valor-a">Valor A</label>
-                <input type="text" id="valor-a" name="valor-a" required placeholder="Digite um valor">
+                <input type="text" id="divi-a" name="valor-a" required autocomplete="off" placeholder="Digite um valor">
 
                 <section>
                     <img src="../Images/div.svg" width="25" height="25" alt="Operador de Divisão">
                 </section>
 
                 <label for="valor-b">Valor B</label>
-                <input type="text" id="valor-b" name="valor-b" required placeholder="Digite um valor">
+                <input type="text" id="divi-b" name="valor-b" required autocomplete="off" placeholder="Digite um valor">
 
-                <button type="submit">Resultado</button>
+                <button onclick="divi()" type="button">Resultado</button>
+
+                <span class="span" id="divi"></span>
             </form>
         </div>
 
-        <button id="return"> <-- Voltar</button>
+        <button id="return"><a href="learn.html"><-- Voltar</a></button>
     </main>   
 </body>
 

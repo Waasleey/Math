@@ -24,6 +24,7 @@
                 <li id="logo">
                     <a href="../index.html">M4TH</a>
                 </li>
+                
                 <li class="login">
                     <a href="../login.html">Login</a>
                 </li>
@@ -39,16 +40,16 @@
                 <h2>Adição</h2>
 
                 <label for="valor-a">Valor A</label>
-                <input type="text" id="soma-a" name="soma" class="soma" required autocomplete="off" placeholder="Digite um valor">
+                <input  type="number" id="soma-a" name="soma" class="soma" required autocomplete="off" placeholder="Digite um valor">
 
                 <section>
                     <img src="../Images/mais.svg" width="25" height="25" alt="Operador de adição">
                 </section>
 
                 <label for="valor-b">Valor B</label>
-                <input type="text" id="soma-b" name="soma" class="soma" required autocomplete='off' placeholder="Digite um valor">
+                <input type="number" id="soma-b" name="soma" class="soma" required autocomplete='off' maxlength="10" placeholder="Digite um valor">
 
-                <button onclick="adicao()" id="soma" type="button">Resultado</button>
+                <button onclick="adicao()" type="button">Resultado</button>
 
                 <span class="span" id="soma"></span>
             </form>
@@ -56,14 +57,14 @@
                 <h2>Subtração</h2>
 
                 <label for="valor-a">Valor A</label>
-                <input type="text" id="sub-a" name="valor-a" required autocomplete="off" placeholder="Digite um valor">
+                <input type="number" id="sub-a" name="valor-a" required autocomplete="off" maxlength="10" placeholder="Digite um valor">
 
                 <section>
                     <img src="../Images/sub.svg" width="25" height="25" alt="Operador de Subtração">
                 </section>
 
                 <label for="valor-b">Valor B</label>
-                <input type="text" id="sub-b" name="valor-b" required autocomplete="off" placeholder="Digite um valor">
+                <input type="number" id="sub-b" name="valor-b" required autocomplete="off" maxlength="10" placeholder="Digite um valor">
 
                 <button onclick="sub()" type="button">Resultado</button>
 
@@ -73,14 +74,14 @@
                 <h2>Multiplicação</h2>
 
                 <label for="valor-a">Valor A</label>
-                <input type="text" id="multi-a" name="valor-a" required autocomplete="off" placeholder="Digite um valor">
+                <input type="number" id="multi-a" name="valor-a" required autocomplete="off" maxlength="10" placeholder="Digite um valor">
 
                 <section>
                     <img src="../Images/multi.svg" width="25" height="25" alt="Operador de Multiplicação">
                 </section>
 
                 <label for="valor-b">Valor B</label>
-                <input type="text" id="multi-b" name="valor-b" required autocomplete="off" placeholder="Digite um valor">
+                <input type="number" id="multi-b" name="valor-b" required autocomplete="off" maxlength="10" placeholder="Digite um valor">
 
                 <button onclick="multi()" type="button">Resultado</button>
 
@@ -90,14 +91,14 @@
                 <h2>Divisão</h2>
 
                 <label for="valor-a">Valor A</label>
-                <input type="text" id="divi-a" name="valor-a" required autocomplete="off" placeholder="Digite um valor">
+                <input type="number" id="divi-a" name="valor-a" required autocomplete="off" maxlength="10" placeholder="Digite um valor">
 
                 <section>
                     <img src="../Images/div.svg" width="25" height="25" alt="Operador de Divisão">
                 </section>
 
                 <label for="valor-b">Valor B</label>
-                <input type="text" id="divi-b" name="valor-b" required autocomplete="off" placeholder="Digite um valor">
+                <input type="number" id="divi-b" name="valor-b" required autocomplete="off" maxlength="10" placeholder="Digite um valor">
 
                 <button onclick="divi()" type="button">Resultado</button>
 

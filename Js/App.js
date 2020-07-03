@@ -1,20 +1,26 @@
-function adicao(){
+function adicao() {
     var firstInput = document.querySelector('input#soma-a');
     var secondInput = document.querySelector('input#soma-b');
 
-    var resul = (parseInt(firstInput.value) + parseInt(secondInput.value));
+    if (firstInput.value == '' || secondInput.value == '') { //verifica se o valor 
+        alert('Poe um valor ai amigão')
+    }
+    else {
+        var resul = (parseInt(firstInput.value) + parseInt(secondInput.value));
 
-    return document.querySelector('span#soma').innerHTML = resul;
+        return document.querySelector('span#soma').innerHTML = resul;
+    }
+
 }
-function sub(){
+function sub() {
     var firstInput = document.querySelector('input#sub-a');
     var secondInput = document.querySelector('input#sub-b');
-    
+
     var resul = (parseInt(firstInput.value) - parseInt(secondInput.value));
 
     return document.querySelector('span#sub').innerHTML = resul;
 }
-function multi(){
+function multi() {
     var firstInput = document.querySelector('input#multi-a');
     var secondInput = document.querySelector('input#multi-b');
 
@@ -22,7 +28,7 @@ function multi(){
 
     return document.querySelector('span#multi').innerHTML = resul;
 }
-function divi(){
+function divi() {
     var firstInput = document.querySelector('input#divi-a');
     var secondInput = document.querySelector('input#divi-b');
 

@@ -36,6 +36,11 @@
     text-align: center;
     outline: none;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{ /*Removendo as caracteristicas do input type:number*/
+    -webkit-appearance: none;
+
+}
 form input:focus{
     border: 2px solid black;
 }
@@ -60,7 +65,7 @@ section img{
 }
 .span{
     margin-top: 30px;
-    font: 18px MarkB, 'sans-serif';
+    font: 2.0rem MarkB, 'sans-serif';
 }
 #return{
     width: 100%;

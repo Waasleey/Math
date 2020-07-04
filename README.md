@@ -30,4 +30,4 @@ Estes requisitos tem como intuito serem realizados após a conclusão dos Requis
 
 As telas foram desenvolvidas para ser acessível para os usuários, envolvendo estudos de UX.
 
-## [Link do Projeto](https://math-waasleey.netlify.app)
+## [Link do Projeto](https://m4th.netlify.app)

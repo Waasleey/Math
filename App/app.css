@@ -39,7 +39,10 @@
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button{ /*Removendo as caracteristicas do input type:number*/
     -webkit-appearance: none;
-
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
 }
 form input:focus{
     border: 2px solid black;

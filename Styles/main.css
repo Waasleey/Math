@@ -43,6 +43,7 @@ main p{
     transition: 400ms;
     height: 100%;
     width: 100%;
+    color: black        ;
 }
 #container-button a button:hover{
     width: 410px;

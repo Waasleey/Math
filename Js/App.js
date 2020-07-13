@@ -3,7 +3,7 @@ function adicao() {
     var secondInput = document.querySelector('input#soma-b');
 
     if (firstInput.value == '' || secondInput.value == '') { //verifica se o valor 
-        alert('Poe um valor ai amigão')
+        alert('Digite um número válido');
     }
     else {
         var resul = (parseInt(firstInput.value) + parseInt(secondInput.value));
@@ -16,23 +16,38 @@ function sub() {
     var firstInput = document.querySelector('input#sub-a');
     var secondInput = document.querySelector('input#sub-b');
 
-    var resul = (parseInt(firstInput.value) - parseInt(secondInput.value));
+    if (firstInput.value == '' || secondInput.value == '') { //verifica se o valor 
+        alert('Digite um número válido');
+    }
+    else {
+        var resul = (parseInt(firstInput.value) - parseInt(secondInput.value));
 
-    return document.querySelector('span#sub').innerHTML = resul;
+        return document.querySelector('span#sub').innerHTML = resul;
+    }
 }
 function multi() {
     var firstInput = document.querySelector('input#multi-a');
     var secondInput = document.querySelector('input#multi-b');
 
-    var resul = (parseInt(firstInput.value) * parseInt(secondInput.value));
+    if (firstInput.value == '' || secondInput.value == '') { //verifica se o valor 
+        alert('Digite um número válido');
+    }
+    else {
+        var resul = (parseInt(firstInput.value) * parseInt(secondInput.value));
 
-    return document.querySelector('span#multi').innerHTML = resul;
+        return document.querySelector('span#multi').innerHTML = resul;
+    }
 }
 function divi() {
     var firstInput = document.querySelector('input#divi-a');
     var secondInput = document.querySelector('input#divi-b');
 
-    var resul = (parseInt(firstInput.value) / parseInt(secondInput.value));
+    if (firstInput.value == '' || secondInput.value == '') { //verifica se o valor 
+        alert('Digite um número válido');
+    }
+    else {
+        var resul = (parseInt(firstInput.value) / parseInt(secondInput.value));
 
-    return document.querySelector('span#divi').innerHTML = resul;
+        return document.querySelector('span#divi').innerHTML = resul;
+    }
 }

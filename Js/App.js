@@ -51,3 +51,39 @@ function divi() {
         return document.querySelector('span#divi').innerHTML = resul;
     }
 }
+//Fim das operações Básicas
+
+//Operações para Calculadora de Combo
+
+function combo() {
+    var firstInput = document.querySelector('input#acompanhamento');
+    var secondInput = document.querySelector('input#promocao');
+    var thirdInput = document.querySelector('input#pizza');
+
+    if (firstInput.value == '' || secondInput.value == '' || thirdInput.value == '') { //verifica se o valor 
+        alert('Digite um número válido');
+    }
+    else {
+        var valorMeiaPizza = ((parseFloat(firstInput.value) - parseFloat(secondInput.value)).toFixed(2) / 2);
+
+        var desconto = (valorMeiaPizza + parseFloat(thirdInput.value)).toFixed(2);
+
+        return document.querySelector('span#combo').innerHTML = desconto;
+    }
+}
+
+//Operações para Calculadora de Promoções
+
+function promocao() {
+    var firstInput = document.querySelector('input#meia');
+    var secondInput = document.querySelector('input#meiaPromocao');
+
+    if (firstInput.value == '' || secondInput.value == '') { //verifica se o valor 
+        alert('Digite um número válido');
+    }
+    else {
+        var desconto = ((parseFloat(firstInput.value) - parseFloat(secondInput.value)).toFixed(2));
+
+        return document.querySelector('span#promocao').innerHTML = desconto;
+    }
+}
